@@ -4,6 +4,15 @@ import HomeTab from './HomeTab';
 import Navigation from './Navigation';
 import Board from './Board';
 import './App.css';
+import ShippingRequests from './components/ShippingRequests';
+
+function App() {
+  return (
+    <div className="App">
+      <ShippingRequests />
+    </div>
+  );
+}
 
 class App extends Component {
   constructor(props) {
